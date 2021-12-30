@@ -16,6 +16,18 @@ Desarrollado con python 3.9.7, Django y Postgresql
 * [Postgresql](https://www.postgresql.org/)
 
 
+### Dependencies
+
+Next install the app dependencies with python.
+
+```bash
+# If you use pip
+pip install -r requirements.txt
+
+# If you use pip3
+pip3 install -r requirements.txt
+```
+
 _para levantar la bd de manera local utilizaremos docker-compose de la siguiente forma:_
 
 ```
