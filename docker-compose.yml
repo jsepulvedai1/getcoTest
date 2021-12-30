@@ -1,0 +1,25 @@
+version: '3.7'
+volumes: 
+  db_data:
+  pg_admin:
+services:
+  getco-postgres:
+    image: postgres
+    container_name: 'getco_postgres_database'
+    ports:
+      - '5432:5432'
+    environment:
+      POSTGRES_USER: getco
+      POSTGRES_PASSWORD: getco
+      POSTGRES_DB: getco_api_db
+    volumes:
+      - db_data:/var/lib/postgresql/data
+  pgAdmin:
+    image: dpage/pgadmin4:5.0
+    ports:
+      - '7300:80'
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@larnu.com
+      PGADMIN_DEFAULT_PASSWORD: larnuisgold
+    volumes:
+      - pg_admin:/var/lib/pgadmin
