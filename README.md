@@ -30,6 +30,12 @@ python manage.py migrate
 python manage.py runserver
 ```
 
+## Test
+_Para realizar test, lanzaremos el siguiente comando:._
+
+```
+python manage.py test
+```
 ## Endpoints
 
 - list_travels
