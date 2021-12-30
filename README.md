@@ -3,7 +3,7 @@
 
 _prueba tecnica Django._
 
-[[_TOC_]]
+
 
 ## Comenzando 🚀
 
@@ -54,6 +54,6 @@ python manage.py test
 - register
 - auth/login
 - user_travels/id
-- user_travels/id/categories/1
+- user_travels/id/categories/id
 
 
