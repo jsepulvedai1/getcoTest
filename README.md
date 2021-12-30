@@ -18,7 +18,7 @@ Desarrollado con python 3.9.7, Django y Postgresql
 
 ### Dependencies
 
-Next install the app dependencies with python.
+instalar las dependencias con python.
 
 ```bash
 # If you use pip
